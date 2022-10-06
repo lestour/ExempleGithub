@@ -4,9 +4,345 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <title>Exemples</title>
 </head>
 <body>
-    
+    <h2 class="display-6 mb-5">Les backgrounds</h2>
+    <div class="container py-5">
+        <div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
+        <div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
+        <div class="p-3 mb-2 bg-success text-white">.bg-success</div>
+        <div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
+        <div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
+        <div class="p-3 mb-2 bg-info text-dark">.bg-info</div>
+        <div class="p-3 mb-2 bg-light text-dark">.bg-light</div>
+        <div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
+        <div class="p-3 mb-2 bg-body text-dark">.bg-body</div>
+        <div class="p-3 mb-2 bg-white text-dark">.bg-white</div>
+        <div class="p-3 mb-2 bg-transparent text-dark">.bg-transparent</div>
+    </div>
+
+    <h2 class="display-6 my-5">Changer la couleur des textes</h2>
+    <div class="container">
+        <p class="text-primary">text-primary</p>
+        <p class="text-secondary">text-secondary</p>
+        <p class="text-success">text-success</p>
+        <p class="text-danger">text-danger</p>
+        <p class="text-warning bg-dark">text-warning</p>
+        <p class="text-info bg-dark">text-info</p>
+        <p class="text-light bg-dark">text-info</p>
+        <p class="text-dark">text-dark</p>
+        <p class="text-body">text-body</p>
+        <p class="text-muted">text-muted</p>
+        <p class="text-white bg-dark">text-white</p>
+    </div>
+
+    <h2 class="display-6 my-5">Changer la couleur des liens</h2>
+    <div class="container">
+        <p>                 <a href="#" class="link-primary">link-primary</a></p>
+        <p>                 <a href="#" class="link-secondary">link-secondary</a></p>
+        <p>                 <a  href="#" class="link-success">link-success</a></p>
+        <p>                 <a href="#" class="link-danger">link-danger</a></p>
+        <p class="bg-dark"> <a href="#" class="link-warning">link-warning</a></p>
+        <p>                 <a href="#" class="link-info">link-info</a></p>
+        <p class="bg-dark"> <a href="#" class="link-light">link-light</a></p>
+        <p>                 <a href="#" class="link-dark">link-dark</a></p>
+        <p>                 <a href="#" class="link-body">link-body</a> (marche pas)</p>
+        <p>                 <a href="#" class="link-muted">link-muted</a> (marche pas)</p>
+        <p>                 <a href="#" class="link-transparent">link-transparent</a> (marche pas)</p>
+    </div>
+
+    <h2 class="display-6 my-5">Cacher un texte</h2>
+    <div class="container">
+        <p class="visible">Hello visible world</p>
+        <p class="invisible">Hello invisble world</p>
+    </div>
+
+    <h2 class="display-6 my-5">Les titres (h1, h2, ...)</h2>
+    <div class="container">
+        <h1>Titre de niveau 1</h1>
+        <h2>Titre de niveau 2</h2>
+        <h3>Titre de niveau 3</h3>
+        <h4>Titre de niveau 4</h4>
+        <h5>Titre de niveau 5</h5>
+        <h6>Titre de niveau 6</h6>
+    </div>
+
+    <h2 class="display-6 my-5">Les "display"</h2>
+    <div class="container">
+        <h1 class="display-1">display-1</h1>
+        <h1 class="display-2">display-2</h1>
+        <h1 class="display-3">display-3</h1>
+        <h1 class="display-4">display-4</h1>
+        <h1 class="display-5">display-5</h1>
+        <h1 class="display-6">display-6</h1>
+    </div>
+
+    <h2 class="display-6 my-5">La taille de texte</h2>
+    <div class="container">
+        <p class="fs-1">fs-1</p>
+        <p class="fs-2">fs-2</p>
+        <p class="fs-3">fs-3</p>
+        <p class="fs-4">fs-4</p>
+        <p class="fs-5">fs-5</p>
+        <p class="fs-6">fs-6</p>
+    </div>
+
+    <h2 class="display-6 my-5">Alignement du texte</h2>
+    <div class="container">
+        <p class="text-start">text-start</p>
+        <p class="text-center">text-center</p>
+        <p class="text-end">text-end</p>
+    </div>
+
+    <h2 class="display-6 my-5">Alignement du texte responsive</h2>
+    <div class="container">
+        <p class="text-md-start">text-md-start</p>
+        <p class="text-md-center">text-md-center</p>
+        <p class="text-md-end">text-md-end</p>
+        <p class="text-sm-start">text-sm-start</p>
+        <p class="text-sm-center">text-sm-center</p>
+        <p class="text-sm-end">text-sm-end</p>
+        <p class="text-lg-start">text-lg-start</p>
+        <p class="text-lg-center">text-lg-center</p>
+        <p class="text-lg-end">text-lg-end</p>
+        <p class="text-xl-start">text-xl-start</p>
+        <p class="text-xl-center">text-xl-center</p>
+        <p class="text-xl-end">text-xl-end</p>
+    </div>
+
+    <h2 class="display-6 my-5">Utiliser "Lead"</h2>
+    <div class="container">
+        <p class="lead">
+            Lead : Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+            et dolore magna aliqua. Vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra. Lacus viverra vitae 
+            congue eu. Sollicitudin tempor id eu nisl nunc. Facilisis volutpat est velit egestas dui id ornare. Fringilla 
+            phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec. Nisi scelerisque eu ultrices vitae 
+            auctor eu augue ut lectus. Aliquet enim tortor at auctor. Tortor dignissim convallis aenean et tortor at risus. 
+            Velit dignissim sodales ut eu sem integer vitae. Diam sit amet nisl suscipit adipiscing. Nulla facilisi nullam 
+            vehicula ipsum a arcu cursus vitae congue. Commodo elit at imperdiet dui accumsan sit amet nulla facilisi. 
+            Pharetra vel turpis nunc eget lorem dolor sed.</p>
+    </div>
+
+    <h2 class="display-6 my-5">Changer le gras/italique/normal</h2>
+    <div class="container">
+        <p class="fw-bold">fw-bold</p>
+        <p class="fw-bolder">fw-bolder</p>
+        <p class="fw-normal">fw-normal</p>
+        <p class="fw-light">fw-light</p>
+        <p class="fw-lighter">fw-lighter</p><br>
+        <p class="fst-italic">fst-italic</p>
+        <p class="fst-normal">fst-normal</p><br>
+        <p class="font-monospace">font-monospace</p>
+        
+    </div>
+
+    <h2 class="display-6 my-5">La hauteur de ligne</h2>
+    <div class="container">
+        <p class="lh-1 bg-light">lh-1</p>
+        <p class="lh-sm bg-light">lh-sm</p>
+        <p class="lh-base bg-light">lh-base</p>
+        <p class="lh-lg bg-light">lh-lg</p>
+    </div>
+
+    <h2 class="display-6 my-5">Text décoration</h2>
+    <div class="container">
+        <p class="text-decoration-underline">text-decoration-underline</p>
+        <p class="text-decoration-line-through">text-decoration-line-through</p>
+        <p><a href="#" class="text-decoration-line-through">text-decoration-line-through</a></p>
+        <p><a href="#" class="text-decoration-none">text-decoration-none</a></p>
+    </div>
+
+    <h2 class="display-6 my-5">Gérer le "wrapping"</h2>
+    <div class="container py-5">
+        <p class="bg-primary text-light fs-5 mb-5" style="width: 150px">bg-primary text-light fs-5 mb-5</p>
+        <p class="bg-primary text-light text-wrap fs-5 mb-5" style="width: 150px">bg-primary text-light text-wrap fs-5 mb-5</p>
+        <p class="bg-primary text-warning text-nowrap fs-5 mb-5" style="width: 150px">bg-primary text-warning text-nowrap fs-5 mb-5</p>
+        <p class="bg-primary text-light text-break fs-5 mb-5" style="width: 150px">bg-primary text-light text-break fs-5 mb-5/p>
+    </div>
+
+    <h2 class="display-6 my-5">Les balises de changements sémantique</h2>
+    <div class="container py-5">
+        <p>You can use the mark to <mark>highlight</mark> text.</p>
+        <p>You can use the delete to <del>delete</del> text.</p>
+        <p>You can use the s to <s>supress</s> unaccurate text.</p>
+        <p>You can use the ins to make an <ins>addition</ins> to the text.</p>
+        <p>You can use the u to <u>underline</u> text.</p>
+        <p>You can use the small to make text like a <small>fine print</small>.</p>
+        <p>You can use the strong to <strong>bold</strong> text.</p>
+        <p>You can use the em to <em>underline</em> text.</p>
+    </div>
+
+    <h2 class="display-6 my-5">Les blockquotes</h2>
+    <div class="container">
+        <blockquote class="blockquote">
+            <p>blockquote</p>
+        </blockquote>
+        <figure class="mb-5">
+            <blockquote class="blockquote-footer">
+                <p>blockquote-footer</p>
+            </blockquote>
+            <figcaption class="blockquote-header">
+                De Winston Churchill, <cite title="Source Title">Mémoires</cite>
+            </figcaption>
+        </figure>
+    </div>
+
+    <h2 class="display-6 my-5">Tronquer le texte</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-3 text-truncate">
+                Pulvinar pellentesque habitant morbi tristique senectus et netus et. Quis vel eros donec ac odio 
+                tempor orci dapibus. Scelerisque varius morbi enim nunc faucibus a. Cum sociis natoque penatibus 
+                et magnis dis. In hac habitasse platea dictumst quisque sagittis purus. Adipiscing tristique risus 
+                nec feugiat. Elementum integer enim neque volutpat ac tincidunt vitae. Pretium viverra suspendisse 
+                potenti nullam ac tortor vitae purus faucibus. At tellus at urna condimentum mattis. Orci nulla 
+                pellentesque dignissim enim sit. Augue mauris augue neque gravida in fermentum et sollicitudin ac. 
+                Aliquam malesuada bibendum arcu vitae elementum curabitur. Urna molestie at elementum eu facilisis 
+                sed odio morbi. Lacus sed viverra tellus in hac habitasse platea dictumst vestibulum. Nulla at volutpat 
+                diam ut venenatis tellus in. Fermentum et sollicitudin ac orci phasellus egestas. Nec sagittis aliquam 
+                malesuada bibendum arcu vitae elementum curabitur. Nec feugiat nisl pretium fusce id velit ut. Tellus 
+                integer feugiat scelerisque varius morbi enim nunc.
+            </div>
+        </div>
+        <span class="d-inline-block text-truncate mb-5" style="max-width: 150px">
+            Lacinia at quis risus sed vulputate odio ut enim. At imperdiet dui accumsan sit amet nulla facilisi morbi.
+            Habitant morbi tristique senectus et netus et. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum. 
+            Amet facilisis magna etiam tempor orci eu lobortis elementum. Lectus quam id leo in vitae turpis massa. 
+            Eros in cursus turpis massa tincidunt. Cras ornare arcu dui vivamus arcu felis bibendum. Facilisis magna 
+            etiam tempor orci eu lobortis elementum. Commodo sed egestas egestas fringilla. Quis vel eros donec ac odio 
+            tempor orci. Eget nunc scelerisque viverra mauris in. At consectetur lorem donec massa sapien faucibus et. 
+            In est ante in nibh mauris cursus. Odio aenean sed adipiscing diam donec adipiscing tristique risus. Eu 
+            ultrices vitae auctor eu augue ut lectus arcu.
+        </span>
+    </div>
+
+    <h2 class="display-6 my-5">Créer des listes</h2>
+    <div class="container">
+        list-group<br>
+        <ul class="mb-5 list-group">
+            <li class="list-group-item">list-group-item</li>
+            <li class="list-group-item active">list-group-item active</li>
+            <li class="list-group-item disabled" aria-disabled="true">list-group-item disabled</li>
+        </ul>
+    </div>
+
+    <h2 class="display-6 my-5">La width</h2>
+    <div class="container py-5">
+        <div class="w-25 text-light bg-primary p-3 mb-2">width 25%</div>
+        <div class="w-50 text-light bg-primary p-3 mb-2">width 50%</div>
+        <div class="w-75 text-light bg-primary p-3 mb-2">width 75%</div>
+        <div class="w-100 text-light bg-primary p-3 mb-2">width 100%</div>
+        <div class="w-auto text-light bg-primary p-3">width auto</div>
+    </div>
+
+    <h2 class="display-6 my-5">Height</h2>
+    <div class="container">
+        <div style="height: 300px; border: 1px solid #333;">
+            <div class="h-25 text-light bg-primary d-inline-block p-1">Height 25%</div>
+            <div class="h-50 text-light bg-primary d-inline-block p-1">Height 50%</div>
+            <div class="h-75 text-light bg-primary d-inline-block p-1">Height 75%</div>
+            <div class="h-100 text-light bg-primary d-inline-block p-1">Height 100%</div>
+            <div class="h-auto text-light bg-primary d-inline-block p-1">Height auto</div>
+        </div>
+    </div>
+
+    <h2 class="display-6 my-5">Les bordures</h2>
+    <div class="container">
+        <div class="border p-3 mb-2 bg-light">border</div>
+        <div class="border-top p-3 mb-2 bg-light">border-top</div>
+        <div class="border-end p-3 mb-2 bg-light">border-end</div>
+        <div class="border-bottom p-3 mb-2 bg-light">border-bottom</div>
+        <div class="border-start p-3 mb-2 bg-light">border-start</div>
+    </div>
+
+    <h2 class="display-6 my-5">La couleur des bordures</h2>
+    <div class="container">
+        <div class="border border-primary p-3 mb-2 bg-light">border border-primary</div>
+        <div class="border border-secondary p-3 mb-2 bg-light">border border-secondary</div>
+        <div class="border border-success p-3 mb-2 bg-light">border border-success</div>
+        <div class="border border-danger p-3 mb-2 bg-light">border border-danger</div>
+        <div class="border border-warning p-3 mb-2 bg-light">border border-warning</div>
+        <div class="border border-info p-3 mb-2 bg-light">border border-info</div>
+        <div class="border border-light p-3 mb-2 bg-light">border border-light</div>
+        <div class="border border-dark p-3 mb-2 bg-light">border border-dark</div>
+        <div class="border border-body p-3 mb-2 bg-light">border border-body</div>
+        <div class="border border-white p-3 mb-2 bg-light">border border-white</div>
+        <div class="border border-transparent p-3 mb-2 bg-light">border border-transparent</div>
+    </div>
+
+    <h2 class="display-6 my-5">Border Radius</h2>
+    <div class="container">
+        <div class="rounded p-3 mb-2 bg-primary text-light">rounded</div>
+        <div class="rounded-top p-3 mb-2 bg-primary text-light">rounded-top</div>
+        <div class="rounded-end p-3 mb-2 bg-primary text-light">rounded-end</div>
+        <div class="rounded-bottom p-3 mb-2 bg-primary text-light">rounded-bottom</div>
+        <div class="rounded-start p-3 mb-2 bg-primary text-light">rounded-start</div>
+        <div class="rounded-circle p-3 mb-2 bg-primary text-light">rounded-circle</div>
+        <div class="rounded-pill p-3 mb-2 bg-primary text-light">rounded-pill</div>
+        <div class="rounded-0 p-3 mb-2 bg-primary text-light">rounded-0</div>
+        <div class="rounded-1 p-3 mb-2 bg-primary text-light">rounded-1</div>
+        <div class="rounded-2 p-3 mb-2 bg-primary text-light">rounded-2</div>
+        <div class="rounded-3 p-3 mb-2 bg-primary text-light">rounded-3</div>
+    </div>
+
+    <h2 class="display-6 my-5">Les marges</h2>
+    <div class="container">
+        <h1 class="bg-primary m-1">m-1</h1>
+        <h1 class="bg-primary m-2">m-2</h1>
+        <h1 class="bg-primary m-3">m-3</h1>
+        <h1 class="bg-primary m-4">m-4</h1>
+        <h1 class="bg-primary m-5">m-5</h1>
+        <h1 class="bg-primary mb-1">m-1</h1>
+        <h1 class="bg-primary mb-2">m-2</h1>
+        <h1 class="bg-primary mb-3">m-3</h1>
+        <h1 class="bg-primary mb-4">m-4</h1>
+        <h1 class="bg-primary mb-5">m-5</h1>
+        <h1 class="bg-primary mt-1">m-1</h1>
+        <h1 class="bg-primary mt-2">m-2</h1>
+        <h1 class="bg-primary mt-3">m-3</h1>
+        <h1 class="bg-primary mt-4">m-4</h1>
+        <h1 class="bg-primary mt-5">m-5</h1>
+        <h1 class="bg-primary ms-1">m-1</h1>
+        <h1 class="bg-primary ms-2">m-2</h1>
+        <h1 class="bg-primary ms-3">m-3</h1>
+        <h1 class="bg-primary ms-4">m-4</h1>
+        <h1 class="bg-primary ms-5">m-5</h1>
+        <h1 class="bg-primary me-1">m-1</h1>
+        <h1 class="bg-primary me-2">m-2</h1>
+        <h1 class="bg-primary me-3">m-3</h1>
+        <h1 class="bg-primary me-4">m-4</h1>
+        <h1 class="bg-primary me-5">m-5</h1>
+        <h1 class="bg-primary my-1">m-1</h1>
+        <h1 class="bg-primary my-2">m-2</h1>
+        <h1 class="bg-primary my-3">m-3</h1>
+        <h1 class="bg-primary my-4">m-4</h1>
+        <h1 class="bg-primary my-5">m-5</h1>
+        <h1 class="bg-primary mx-1">m-1</h1>
+        <h1 class="bg-primary mx-2">m-2</h1>
+        <h1 class="bg-primary mx-3">m-3</h1>
+        <h1 class="bg-primary mx-4">m-4</h1>
+        <h1 class="bg-primary mx-5">m-5</h1>
+        <h1 class="bg-primary m-auto">m-5</h1>
+        <h1 class="bg-primary mt-auto">m-5</h1>
+        <h1 class="bg-primary me-auto">m-5</h1>
+        <h1 class="bg-primary mb-auto">m-5</h1>
+        <h1 class="bg-primary ms-auto">m-5</h1>
+        <h1 class="bg-primary me-auto">m-5</h1>
+        <h1 class="bg-primary my-auto">m-5</h1>
+        <h1 class="bg-primary mx-auto">m-5</h1>
+    </div>
+
+    <h2 class="display-6 my-5">Les marges responsives</h2>
+    <div class="container">
+        
+    </div>
+
+    <h2 class="display-6 my-5"></h2>
+    <div class="container">
+        
+    </div>
 </body>
 </html>
